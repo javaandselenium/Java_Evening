@@ -9,7 +9,7 @@ public class Test4 {
 		System.out.println(empName+" "+empSal+" "+empId);
 		System.out.println(empName);
 		System.out.println(empId);
-		System.out.println(empSal);
+		
 
 	}
 
