@@ -14,6 +14,7 @@ public class Test0 {
 	public static void main(String[] args) {
 		System.out.println("Bye from main method");
 		Test0 t=new Test0();
+		Test1 t1=new Test1();
 
 	}
 
