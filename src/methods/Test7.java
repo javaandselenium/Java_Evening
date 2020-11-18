@@ -20,8 +20,17 @@ public class Test7 {
 	{
 		System.out.println("integer and integer and double");
 	}
+	
+	public static void main(int a) {
+		System.out.println("int");
+	}
+	
+	public static void main(double b,int a) {
+		System.out.println("double and it");
+	}
 
 	public static void main(String[] args) {
+		
 		Test7 t=new Test7();
 		t.add(10, 10, 456.8789);
 		t.add(10);
