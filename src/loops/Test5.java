@@ -4,13 +4,18 @@ import java.util.Scanner;
 
 public class Test5 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Scanner s=new Scanner(System.in);
-		String option="";
-		while(!option.equalsIgnoreCase("JAVA")) {
+		System.out.println("Enter the value");
+		
+		String option = s.nextLine();
+		
+		while(option.equalsIgnoreCase("JAVA")) {
 			System.out.println("crrt sub");
-			option=s.nextLine();
+			break;	
 		}
+		
 		System.out.println("hello");
 	}
 
