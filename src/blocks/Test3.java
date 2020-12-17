@@ -12,6 +12,9 @@ public class Test3 {
 	public static void main(String[] args) {
 	Test3 t=new Test3();
 	t.sub();
+	Test4 t1=new Test4();
+	
+	
 	}
 
 }
