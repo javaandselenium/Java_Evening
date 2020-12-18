@@ -3,6 +3,12 @@ package exceptionHandling;
 import java.io.FileInputStream;
 
 public class Test0 {
+	public void demo() {
+		try {
+		FileInputStream f=new FileInputStream("./D");}
+		
+	}
+	
 
 	public static void main(String[] args) {
 		try {
